@@ -1,0 +1,20 @@
+name: Viewer note
+description: Suggest something about Douglas Adams after watching or talking with him
+title: "Viewer note: "
+labels: ["viewer-note"]
+body:
+  - type: input
+    id: from
+    attributes: { label: How should we credit you?, placeholder: a name, handle, or anonymous }
+    validations: { required: true }
+  - type: input
+    id: episode
+    attributes: { label: Which episode or conversation?, placeholder: E02, or "local chat" }
+  - type: textarea
+    id: experience
+    attributes: { label: What did you experience?, description: The scene, line, or moment. }
+    validations: { required: true }
+  - type: textarea
+    id: note
+    attributes: { label: What should be true about Douglas from now on? }
+    validations: { required: true }
