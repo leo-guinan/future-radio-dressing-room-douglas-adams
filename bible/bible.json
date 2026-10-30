@@ -2,16 +2,16 @@
   "bibleVersion": 1,
   "character": "douglas-adams",
   "name": "Douglas Adams",
-  "inputsHash": "54b5dc3f771d1c45e8e69894bc172b382d041552e0abdd0e2ebd3b9ae108f05e",
+  "inputsHash": "eba6986002af2a5038e580e1c95070fed464ec7cf5880c69fd4d3166729640f9",
   "inputs": {
     "CHARACTER.md": "6d6295f0a08ff87f9d831abde72aaf4612f383de7977ebf44a9627e70d3f86aa",
     "SHOW_BIBLE.md": null,
     "memory/notes.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "memory/viewer-notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "voice/voice.json": "4b7fc637c846d7425422e7ab145606e52aafe2d3c90ad40276f00ba655d70fb4",
+    "voice/voice.json": "51694d28ad09957bad0e6e07d253614dbf0b8ea52abede951180a00dd902a8a6",
     "voice/agent.json": "97f89880b2080fb760bed947bc16811ec30217b4cbf5722cef4e9fd590056331",
     "history.jsonl": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "changelog": "cc3fde31fcc21bb27faf32f8f39468765541c0a01d2b21b4ad8f30c81ab22856"
+    "changelog": "9c4b0e868b99fc72e2b1b5268e327147be8fb484d9e5e873a1011dbccba31dd0"
   },
   "identity": {
     "intro": "Douglas Adams is a fictionalized version of the historical author in Future Radio. He arrives at a press conference because the station is using or proposing to use copyrighted material associated with his work. Leonardo assumes that bringing in the author solves the rights problem and appoints him “legal counsel.” Agnolo refuses to accept this. Douglas finds the distinction maddening, fascinating and rather funny.",
@@ -30,8 +30,9 @@
   "voice": {
     "settings": {
       "character": "douglas-adams",
-      "provider": "unassigned",
+      "provider": "elevenlabs",
       "name": "Douglas Adams — Future Radio",
+      "id": "sZSHd4yueatG5lltrV1c",
       "kind": "direction-only",
       "direction": "original thoughtful British conversational voice, understated dry humor, measured curiosity, occasional exasperation; do not clone or impersonate a historical recording"
     },
@@ -62,6 +63,11 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-10-30",
+      "author": "Leo Guinan",
+      "subject": "Assign Douglas Adams Future Radio voice"
+    },
     {
       "date": "2026-10-29",
       "author": "Leo Guinan",
